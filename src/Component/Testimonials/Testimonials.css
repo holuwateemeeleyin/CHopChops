@@ -1,0 +1,37 @@
+.testimonials_Container-parent {
+    margin-top: 2rem;
+    background-color: #fff;
+    width: 100%;
+    height: 34rem;
+}
+.testimonials_container{
+    padding-top: 1rem;
+    margin: auto;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+}
+.testimonials-text-header {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.testimonials-text-desc{
+    color: #707070;
+    font-size: 0.85rem;
+}
+
+
+.testimonials-image img{
+    width: 100%;
+}
+.testimonials-name-container {
+    margin: auto;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.testimonials-name {
+    font-weight: bold;
+}
