@@ -1,6 +1,9 @@
 import React from 'react'
-
-export default function HomeBottomview() {
+import CardItems from './CardItems'
+import { AiOutlineArrowRight } from 'react-icons/all'
+export default function HomeBottomview(props) {
+    const { foodItems }= props
+    console.log(foodItems);
     return (
         <div className='bottomview_container-parent'>
             <div className='bottomview-title'>
@@ -8,13 +11,19 @@ export default function HomeBottomview() {
                     Top Pick
                 </div>
                 <div className='title-right'>
-                    See all foods
+                    See all foods {' '}
+                    <AiOutlineArrowRight/>
                 </div>
             </div>
             <div className='bottomview-card-container'>
-                <div className='card-container'>
-                    Card
-                </div>
+                {
+                    foodItems.map(item => (
+                        <CardItems
+                            key={item.id}
+                            food={item}
+                        />
+                    ))
+                }
             </div>
         </div>
     )

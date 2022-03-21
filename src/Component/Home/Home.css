@@ -1,6 +1,6 @@
-.home_container-parent {
-    background-color: #fff;
+.front-view {
     min-height: 25.2rem;
+    background-color: #fff;
 }
 .home_container{
     margin: auto;
@@ -8,19 +8,19 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 1rem;
 }
 
 .home-text-header{
-    font-size: 2.3rem;
+    font-size: 3.7rem;
     font-family: quicksand;
     padding-top: 4rem;
-    font-weight: bold;
+    font-weight: bolder;
+    color: #151138;
 }
 .home-text-subheader{
     padding-top: 0.2rem;
-    color: #b9b9b9;
-    font-size: 1.4rem;
+    color: #707070;
+    font-size: 1.7rem;
     font-family: quicksand;
 }
 
@@ -28,7 +28,7 @@
     padding-top: 10px;
 }
 .explore-button{
-    background-color: #ffd86c;
+    background-color: #e3b32d;
     border-color: transparent;
     padding: 10px;
     color: #fff;
@@ -36,17 +36,19 @@
 }
 
 .home-fontview-image{
-    position: relative;
+    /* position: relative; */
     padding-top: 2rem;
     right: 40px;
+}
+
+.home-fontview-image img{
+    margin: auto;
+    width: 100%;
 }
 
 .bottomview_container-parent {
     margin: auto;
     width: 85%;
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* justify-content: space-between; */
     padding-top: 1.5rem;
 }
 
@@ -60,4 +62,61 @@
 
 .bottomview-card-container {
     padding-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-container {
+    background-color: #fff;
+    width: 150px;
+    min-height: 13rem;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.card-image{
+    padding-top: 10px;
+}
+
+.food-desc {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.food-desc2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.add-cart {
+    color: #e3b32d;
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width:950px) {
+    .home_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* margin: auto;
+        width: 65%; */
+    }
+    .home-text-header{
+        font-size: 2.6rem;
+        font-family: quicksand;
+        padding-top: 2.8rem;
+    }
+    .home-text-subheader{
+        font-size: 1.3rem;
+    }
 }
