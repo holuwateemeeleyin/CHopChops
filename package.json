@@ -24,8 +24,10 @@
     "react-scripts": "4.0.3",
     "react-sidenav": "^4.0.6",
     "react-simple-sidenav": "^2.0.0",
+    "react-slick": "^0.28.1",
     "react-toastify": "^8.2.0",
     "simple-sidenav": "^1.1.5",
+    "slick-carousel": "^1.8.1",
     "uuid": "^8.3.2"
   },
   "scripts": {
