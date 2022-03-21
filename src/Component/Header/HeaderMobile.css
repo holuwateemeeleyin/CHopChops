@@ -1,0 +1,33 @@
+.headerMobile_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    width: 85%;
+    padding-top: 1rem;
+}
+
+.headerMobile_container_parent {
+    background-color: #fff;
+}
+
+.sidebar_container a {
+    font-weight: 300;
+    font-size: 16px;
+    color: #e3b32d;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+    text-decoration: none;
+}
+.logoMobile{
+    font-size: 1.2rem;
+    color: #e3b32d;
+    font-weight: bolder;
+}
+
+
+@media screen and (min-width:950px) {
+    .headerMobile_container {
+        display: none;
+    }
+}
