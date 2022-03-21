@@ -12,16 +12,16 @@
     padding-top: 15px;
 }
 .header_logo{
-    color: #ffd86c;
+    color: #e3b32d;
     font-weight: bold;
     font-size: large;
-    font-family: quicksand;
+    font-family: 'Quicksand';
 }
 
 .header_navbar{
     display: flex;
     flex-direction: row;
-    width: 38%;
+    width: 45%;
     justify-content: space-around;
     cursor: pointer;
 }
@@ -43,7 +43,7 @@
 }
 
 .order-button{
-    background-color: #ffd86c;
+    background-color: #e3b32d;
     color: #fff;
     border-color:transparent;
     padding: 10px;
@@ -54,4 +54,10 @@
 }
 .order-button:hover{
     background-color: #707070;
+}
+
+@media screen and (max-width:950px) {
+    .header_container-parent{
+        display: none;
+    }   
 }

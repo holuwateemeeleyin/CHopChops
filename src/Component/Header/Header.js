@@ -12,7 +12,7 @@ export default function Header() {
                 <div className='header_navbar'>
                     <Link to='/' style={{ color: '#ffd86c' }}>Home</Link>
                     <Link to='/'>Product</Link>
-                    <Link to='/'>About Us</Link>
+                    <Link to='/aboutUs'>About Us</Link>
                     <div className='header-cart-container'>
                         <Link to='/'>Cart</Link>
                         <div className='header-cart'>
