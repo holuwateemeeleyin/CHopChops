@@ -1,7 +1,7 @@
 import React from 'react'
 import { SideNav } from 'react-simple-sidenav'
 import { Link } from 'react-router-dom'
-export default function (props) {
+export default function Sidebar(props) {
   return (
     <div className='sidebar_container'>
       <SideNav

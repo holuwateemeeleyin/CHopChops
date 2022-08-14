@@ -11,18 +11,18 @@ export default function AboutUs() {
             <div className='aboutUs_container'>
                 <div className='aboutUs-frontView'>
                     <div className='aboutUs-frontView-image'>
-                        <img src={image} />
+                        <img src={image} alt='food'/>
                     </div>
                     <div className='aboutUs-frontView-text'>
-                        <h2>About Us </h2>
-                        <p className='aboutUs-subTitle'>
+                        <div className='aboutus-header'>About Us </div>
+                        <div className='about-subTitle'>
                             Simple way of eating Quality & Healthy food.
-                        </p>
-                        <p className='aboutUs-desc'>
+                        </div>
+                        <div className='aboutUs-desc'>
                             Duis aute irure dolor in reprehenderit in
                             voluptate velit esse cillum dolore eu
                             fugiat nulla pariatur.
-                        </p>
+                        </div>
                         <div className='home-button'>
                             <button className='explore-button'>
                                 Explore Our Story
@@ -37,7 +37,7 @@ export default function AboutUs() {
                     <div className='aboutUs-bottomView-symbols'>
                         <div className='symbols-container-parent'>
                             <div className='symbols-container-card' style={{backgroundColor:'#e3b32d'}}>
-                                <img src={plate} />
+                                <img src={plate} alt='plate' />
                             </div>
                             <div className='symbols-header'>
                                 Quality Food
@@ -50,7 +50,7 @@ export default function AboutUs() {
                         </div>
                         <div className='symbols-container-parent'>
                             <div className='symbols-container-card'>
-                                <img src={foodFace} />
+                                <img src={foodFace} alt='food'/>
                             </div>
                             <div className='symbols-header'>
                                 Super Taste
@@ -63,7 +63,7 @@ export default function AboutUs() {
                         </div>
                         <div className='symbols-container-parent'>
                             <div className='symbols-container-card'>
-                                <img src={delivery} />
+                                <img src={delivery} alt='delivery'/>
                             </div>
                             <div className='symbols-header'>
                                 Fast Delivery
@@ -74,14 +74,6 @@ export default function AboutUs() {
                                 fugiat nulla pariatur.
                             </div>
                         </div>
-
-
-                        {/* <div className='symbols-container-card'>
-                            <img src={foodFace} />
-                        </div>
-                        <div className='symbols-container-card'>
-                            <img src={delivery} />
-                        </div> */}
                     </div>
                 </div>
             </div>

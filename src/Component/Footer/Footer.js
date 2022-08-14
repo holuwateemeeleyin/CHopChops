@@ -1,41 +1,57 @@
 import React from 'react'
 import './Footer.css'
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
-
+import { AiOutlineTwitter} from 'react-icons/ai'
+import { FaFacebookF } from 'react-icons/fa'
+import {BsInstagram} from 'react-icons/bs'
 export default function Footer() {
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1
-      };
 
   return (
     <div className='footer_container-parent'>
-        Footer
-        <Slider {...settings}>
-          <div>
-            <h3>1</h3>
+        <div className='footer-container'>
+          <div className='chopchops'>
+            <div className='chopchops-text'>
+              ChopChops
+            </div>
+            <div className='chopchops-social'>
+              <AiOutlineTwitter />
+              <FaFacebookF size={12}/>
+              <BsInstagram/>
+            </div>
           </div>
-          <div>
-            <h3>2</h3>
+          <div className='services'>
+            <div className='service-header'>
+              Our Services
+            </div>
+            <div className='service-menu'>
+              Menu
+            </div>
           </div>
-          <div>
-            <h3>3</h3>
+          <div className='about'>
+            <div className='about-header'>
+              About
+            </div>
+            <div className='about-list'>
+              Testimony
+            </div>
+            <div className='about-list'>
+              FAQs
+            </div>
+            <div className='about-list'>
+              Blog
+            </div>
           </div>
-          <div>
-            <h3>4</h3>
+          <div className='subscribe-container'>
+            <div className='subscribe-box'>
+              subscribe to our Newsletter
+              <div>
+                <input
+                  className='subscribe-input'
+                />
+                <label className='searchbox'>Submit</label>
+              </div>
+            </div>
           </div>
-          <div>
-            <h3>5</h3>
-          </div>
-          <div>
-            <h3>6</h3>
-          </div>
-        </Slider>
+        </div>
     </div>
   )
 }

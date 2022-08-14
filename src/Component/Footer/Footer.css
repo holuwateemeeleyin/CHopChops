@@ -1,3 +1,64 @@
 .footer_container-parent {
-    margin-top: 2rem;
+    margin-top: 3rem;
+}
+
+@media screen and (max-width:600px) {
+    .footer-container{
+        font-size: 0.5rem;
+        font-weight: 600;
+        margin: auto;
+        width: 85%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .chopchops-social{
+        color: #acacac;
+        padding-top: 0.6rem;
+        display: flex;
+        justify-content: space-around;
+    }
+    .service-menu{
+        color: #707070;
+        padding-top: 0.6rem;
+        font-size: 0.45rem;
+    }
+    .about-header{
+        padding-bottom: 0.6rem;
+    }
+    .about-list{
+        color: #707070;
+        font-size: 0.45rem;
+    }
+    .subscribe-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.45rem;
+        font-weight: normal;
+        width: 6.5rem;
+        height: 2.7rem;
+        border: 2px solid beige;
+        text-align: center;
+        box-shadow: 0 0.2rem 0.7rem 0 #dfdfdf;
+    }
+    .subscribe-input{
+        width: 50%;
+        height: 0.7rem;
+        outline: #707070;
+        color: #707070;
+        border: 1.5px solid #ececec;
+        box-shadow: 0 0.2rem 0.3rem 0 #dfdfdf;
+    }
+    .searchbox{
+        padding-top: 0.17rem;
+        padding-right:0.17rem ;
+        padding-left:0.17rem ;
+        /* padding: 0.17rem; */
+        width: 2rem;
+        height: 1rem;
+        border: 2px solid #e3b32d;
+        background-color: #e3b32d;
+        color: #fff;
+    }
 }

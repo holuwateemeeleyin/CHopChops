@@ -2,12 +2,11 @@ import React from 'react'
 import { AiFillStar } from 'react-icons/ai'
 
 export default function CardItems(props) {
-    const {food_name, price, isRating, rating, image} = props.food
-    console.log(image);
+    const {food_name, price, rating, image} = props.food
     return (
         <div className='card-container'>
             <div className='card-image'>
-                <img src= {image} width='80%' />
+                <img src= {image} alt='food' width='80%' />
             </div>
             <div className='card-text'>
                 <div className='food-desc'>

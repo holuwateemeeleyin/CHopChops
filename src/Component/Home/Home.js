@@ -29,7 +29,7 @@ export default function Home(props) {
                         </div>
                     </div>
                     <div className='home-fontview-image'>
-                        <img src={image1} />
+                        <img src={image1} alt='food' />
                     </div>
                 </div>
             </div>

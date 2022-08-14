@@ -1,7 +1,8 @@
 import React from 'react'
 import './Testimonials.css'
 import Food from '../../Assets/food5.png'
-import { AiOutlineArrowLeft, BsArrowRight } from 'react-icons/all'
+import { AiOutlineArrowLeft } from 'react-icons/ai'
+import { BsArrowRight } from 'react-icons/bs'
 export default function Testimonials() {
     return (
         <div className='testimonials_Container-parent'>
@@ -19,6 +20,10 @@ export default function Testimonials() {
                             Duis aute irure dolor in reprehenderit in
                             voluptate velit esse cillum dolore eu
                             fugiat nulla pariatur.
+                            Duis aute irure dolor in reprehenderit
+                             in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            Duis aute irure dolor in reprehenderit in 
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                             "
                         </p>
                     </div>
