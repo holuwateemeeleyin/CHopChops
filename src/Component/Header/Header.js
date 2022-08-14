@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Header.css'
-import { AiOutlineShoppingCart } from 'react-icons/all'
+import { AiOutlineShoppingCart } from 'react-icons/ai'
 export default function Header() {
     return (
         <div className='header_container-parent'>
@@ -25,5 +25,3 @@ export default function Header() {
         </div>
     )
 }
-
-// Started 3:40
