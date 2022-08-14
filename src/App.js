@@ -72,7 +72,7 @@ const App = () => {
       "price": "$15.67"
     },
     {
-      "id": "1",
+      "id": "9",
       "image": "Images/food1.png",
       "food_name": "French Toast",
       "isRating": false,
@@ -80,7 +80,7 @@ const App = () => {
       "price": "$15.67"
     },
     {
-      "id": "2",
+      "id": "10",
       "image": "Images/food10b.png",
       "food_name": "Jollof Rice",
       "isRating": false,
@@ -88,7 +88,7 @@ const App = () => {
       "price": "$15.67"
     },
     {
-      "id": "3",
+      "id": "11",
       "image": "Images/food12.png",
       "food_name": "Egusi Soup",
       "isRating": false,
@@ -96,7 +96,7 @@ const App = () => {
       "price": "$15.67"
     },
     {
-      "id": "4",
+      "id": "12",
       "image": "Images/food7.png",
       "food_name": "Egg Sauce",
       "isRating": false,
@@ -104,7 +104,7 @@ const App = () => {
       "price": "$15.67"
     },
     {
-      "id": "5",
+      "id": "13",
       "image": "Images/food1.png",
       "food_name": "French Toast",
       "isRating": false,
@@ -112,7 +112,7 @@ const App = () => {
       "price": "$15.67"
     },
     {
-      "id": "6",
+      "id": "14",
       "image": "Images/food10b.png",
       "food_name": "Jollof Rice",
       "isRating": false,
@@ -120,7 +120,7 @@ const App = () => {
       "price": "$15.67"
     },
     {
-      "id": "7",
+      "id": "15",
       "image": "Images/food12.png",
       "food_name": "Egusi Soup",
       "isRating": false,
@@ -128,7 +128,7 @@ const App = () => {
       "price": "$15.67"
     },
     {
-      "id": "8",
+      "id": "16",
       "image": "Images/food7.png",
       "food_name": "Egg Sauce",
       "isRating": false,
