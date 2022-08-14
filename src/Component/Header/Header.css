@@ -56,8 +56,17 @@
     background-color: #707070;
 }
 
-@media screen and (max-width:950px) {
+@media screen and (max-width:600px) {
     .header_container-parent{
         display: none;
     }   
+}
+
+@media screen and (max-width:900px) {
+    .header_logo{
+        font-size: 0.9rem;
+    }
+    .header_navbar{
+        width: 70%;
+    }
 }
