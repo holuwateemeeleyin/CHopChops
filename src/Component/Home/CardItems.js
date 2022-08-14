@@ -1,4 +1,5 @@
 import React from 'react'
+import { AiFillStar } from 'react-icons/ai'
 
 export default function CardItems(props) {
     const {food_name, price, isRating, rating, image} = props.food
@@ -14,7 +15,8 @@ export default function CardItems(props) {
                         {food_name}
                     </div>
                     <div className='food-rating'>
-                        star
+                        <AiFillStar color='#E3B32D' size={11}/> 
+                        <div>{rating}</div>
                     </div>
                 </div>
                 <div className='food-desc2'>

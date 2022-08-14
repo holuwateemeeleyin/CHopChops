@@ -36,8 +36,8 @@ export default function Home(props) {
             <HomeBottomview
                 foodItems={food}
             />
-            <AboutUs/>
-            <Testimonials/>
+            <AboutUs />
+            <Testimonials />
             <Footer/>
         </div>
     )
